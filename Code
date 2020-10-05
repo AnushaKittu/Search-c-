@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int x;cin>>x;
+  int arr[5];
+  for(int i = 0;i<5;i++)
+  {
+    cin>>arr[i];
+  }
+  //Linear Search
+  for(int i = 0;i<5;i++)
+  {
+     if(arr[i] == x)
+     {
+       cout<<"true";
+       break;
+     }
+  }
+  if(i == 5)
+  cout<<"false";
+  return 0;
+}
